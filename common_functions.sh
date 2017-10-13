@@ -38,7 +38,7 @@ exit_trap() {
 }
 
 success() {
-  printf "%s\nBUILD SUCCESS\n%s\n" "$(line)" "$(line)"
+  printf "%s\nBUILD SUCCESS\n%s\n" "$(line)" "$(line)" >&2
 }
 
 failure() {
